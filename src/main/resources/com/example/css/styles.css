@@ -1,0 +1,61 @@
+
+#stackPane{
+    -fx-background-size: contain, contain;
+    -fx-background-position: top, top;
+    -fx-background-repeat: repeat, repeat;
+    -fx-background-image:
+            url("../assets/art/bg2.png"),
+            url("../assets/art/bg3.png");
+    -fx-background-color:
+            linear-gradient(#4568DC, #B06AB3),
+            repeating-image-pattern("https://edencoding.com/resources/wp-content/uploads/2021/02/Stars_128.png"),
+            radial-gradient(center 50% 50%, radius 50%, #FFFFFF33, #00000033);
+}
+#content{
+    -fx-background-size: contain, contain;
+    -fx-background-position: top, top;
+    -fx-background-repeat: repeat, repeat;
+    -fx-background-image:
+            url("../assets/art/bg2.png"),
+            url("../assets/art/bg3.png");
+    -fx-background-color:
+            linear-gradient(#4568DC, #B06AB3),
+            repeating-image-pattern("https://edencoding.com/resources/wp-content/uploads/2021/02/Stars_128.png"),
+            radial-gradient(center 50% 50%, radius 50%, #FFFFFF33, #00000033);
+}
+#menu{
+    -fx-background-size: contain, contain;
+    -fx-background-position: top, top;
+    -fx-background-repeat: repeat, repeat;
+
+    -fx-background-color:
+            linear-gradient(#4568DC, #B06AB3),
+            radial-gradient(center 50% 50%, radius 50%, #FFFFFF33, #00000033);
+}
+
+#gradient{
+    -fx-background-size: contain, contain;
+    -fx-background-position: top, top;
+    -fx-background-repeat: repeat, repeat;
+
+    -fx-background-color:
+            linear-gradient(#4568DC, #B06AB3),
+            radial-gradient(center 50% 50%, radius 50%, #FFFFFF33, #00000033);
+}
+.menuOption:hover {
+    -fx-text-fill: #FAEBD7;
+}
+#death{
+    -fx-background-size: contain, contain;
+    -fx-background-position: top, top;
+    -fx-background-repeat: repeat, repeat;
+
+    -fx-background-color:
+            linear-gradient(#000000,#800000),
+            radial-gradient(center 30% 70%, radius 50%, #FFFFFF33, #00000033);
+}
+#darkLayer{
+    -fx-background-color: black;
+    -fx-blend-mode: multiply;
+    -fx-opacity: 10%;
+}

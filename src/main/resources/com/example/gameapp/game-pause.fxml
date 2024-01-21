@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="menu" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="250.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gameapp.Controller.PauseController">
+   <children>
+      <Label text="PAUSE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Label>
+      <VBox alignment="CENTER" prefHeight="216.0" prefWidth="250.0">
+         <children>
+            <Label fx:id="mainMenu" styleClass="menuOption" text="MAIN MENU">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow height="9.28" radius="4.14" width="9.28">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect></Label>
+            <Label fx:id="weiterlaufen" styleClass="menuOption" text="CONTINUE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <DropShadow height="9.28" radius="4.14" width="9.28">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect></Label>
+         </children>
+      </VBox>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>

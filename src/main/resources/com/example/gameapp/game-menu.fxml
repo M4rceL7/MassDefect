@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="menu" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="250.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gameapp.Controller.MenuController">
+   <children>
+      <Label text="MassDefectFX" textAlignment="CENTER" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Label fx:id="start" styleClass="menuOption" text="START">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow height="6.34" radius="3.2824999999999998" width="8.79">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect></Label>
+            <Label fx:id="exit" styleClass="menuOption" text="EXIT">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow height="9.28" radius="4.14" width="9.28">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect></Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>
